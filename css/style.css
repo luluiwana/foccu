@@ -1,6 +1,15 @@
+.jumbotron {
+  padding-top: 8rem;
+  background-color: #2cc8ea;
+}
+
+#projects {
+  background-color: #2cc8ea;
+}
 section {
   padding-top: 9rem;
 }
+
 @font-face {
   font-family: poppins;
   src: url(../font/Poppins-Medium.ttf);
@@ -13,14 +22,6 @@ a{
   text-decoration: none;
 }
 
-.jumbotron {
-  padding-top: 8rem;
-  background-color: #2cc8ea;
-}
-
-#projects {
-  background-color: #2cc8ea;
-}
 .text-indigo{
   color: #4834D4;
 }
