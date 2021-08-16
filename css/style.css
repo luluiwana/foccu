@@ -1,0 +1,62 @@
+.jumbotron {
+  padding-top: 8rem;
+  background-color: #2cc8ea;
+}
+
+#projects {
+  background-color: #2cc8ea;
+}
+section {
+  padding-top: 9rem;
+}
+
+@font-face {
+  font-family: poppins;
+  src: url(../font/Poppins-Medium.ttf);
+}
+body{
+  font-family: poppins;
+}
+a{
+  color: black;
+  text-decoration: none;
+}
+
+.text-indigo{
+  color: #4834D4;
+}
+.fs-80{
+  font-size: 80px;
+}
+.profile-image{
+  width: 70px;
+}
+.profile{
+  width: 10%;
+}
+.testi-photo{
+  width: 80px;
+}
+
+.testi{
+  margin-left:150px;
+  margin-right:150px;
+ background: linear-gradient(107.84deg, #358DC8 24.31%, #2CC8EA 90.65%);
+  border-radius: 15px;
+  min-height: 400px;
+  border:none;
+}
+
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+ .profile{
+  width: 33%;
+}
+.testi{
+  margin-left:20px;
+  margin-right:20px;
+  min-height: 400px;
+  border:none;
+}
+}
