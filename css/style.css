@@ -44,7 +44,6 @@ a {
   transform-origin: 0 0;
 }
 
-
 .testi {
   margin-left: 150px;
   margin-right: 150px;
@@ -103,7 +102,7 @@ nav {
   background-color: rgb(36, 51, 66);
 }
 .navbar-dark .navbar-nav .nav-link {
-    color: rgb(255 255 255);
+  color: rgb(255 255 255);
 }
 
 nav .wrapper {
@@ -298,8 +297,6 @@ button {
   padding: 20px;
 }
 
-
-
 .info h2 {
   color: #16f1dc;
   font-size: 34px;
@@ -379,10 +376,13 @@ button {
   }
 }
 
-@media screen and (max-width: 660px) {
+@media screen and (max-width: 768px) {
   nav .hamburger {
     opacity: 1;
     pointer-events: initial;
+  }
+  .navbar-brand{
+    margin-right: 0;;
   }
 
   nav div.linkWrapper {
@@ -410,34 +410,33 @@ button {
     display: inline-block;
     font-weight: 300;
     letter-spacing: 1.5;
-    width: 100%;
-    margin-bottom: 31px;
+    width: 80%;
+    /* margin-bottom: 31px; */
     text-align: center;
     font-size: 38px;
   }
 }
 @keyframes fadeInUp {
-    from {
-        transform: translate3d(0,40px,0)
-    }
+  from {
+    transform: translate3d(0, 40px, 0);
+  }
 
-    to {
-        transform: translate3d(0,0,0);
-        opacity: 1
-    }
+  to {
+    transform: translate3d(0, 0, 0);
+    opacity: 1;
+  }
 }
 
 @-webkit-keyframes fadeInUp {
-    from {
-        transform: translate3d(0,40px,0)
-    }
+  from {
+    transform: translate3d(0, 40px, 0);
+  }
 
-    to {
-        transform: translate3d(0,0,0);
-        opacity: 1
-    }
+  to {
+    transform: translate3d(0, 0, 0);
+    opacity: 1;
+  }
 }
-
 
 .fade-in {
   opacity: 0;
